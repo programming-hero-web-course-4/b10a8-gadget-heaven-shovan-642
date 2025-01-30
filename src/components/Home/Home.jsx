@@ -1,10 +1,13 @@
-import React from 'react';
-import Navbar from '../Navbar/Navbar';
+import ExploreGadget from "../ExploreGadget/ExploreGadget";
+
+
 
 const Home = () => {
     return (
         <div>
-            <Navbar></Navbar>>
+           <ExploreGadget>
+            
+           </ExploreGadget>
         </div>
     );
 };

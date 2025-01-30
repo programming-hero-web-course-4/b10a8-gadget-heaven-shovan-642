@@ -1,0 +1,16 @@
+.color-01{
+    color: #9538E2;
+}
+.color-02{
+    color: rgba(9, 8, 15, 0.6);
+}
+.color-03{
+    color: rgb(58, 58, 58);
+}
+
+.bg-color-01{
+    background-color: #9538E2;
+}
+.bg-color-02{
+    background-color: rgba(9, 8, 15, 0.05);
+}

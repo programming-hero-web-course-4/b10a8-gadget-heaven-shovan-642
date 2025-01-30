@@ -1,0 +1,113 @@
+[
+    {
+      "product_id": "P001",
+      "product_title": "Apple iPhone 15 Pro Max",
+      "product_image": "https://i.ibb.co.com/9HcynD5b/iphone.webp",
+      "category": "Smartphones",
+      "price": 1299,
+      "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
+      "specification": ["6.7-inch Super Retina XDR display", "A17 Bionic chip", "Triple-camera system", "LiDAR Scanner", "Up to 2TB storage"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "P002",
+      "product_title": "Samsung Galaxy S21 Ultra",
+      "product_image": "https://i.ibb.co.com/GfR6t9Vk/samsung.jpg",
+      "category": "Smartphones",
+      "price": 1199,
+      "description": "Samsung's flagship smartphone with cutting-edge features.",
+      "specification": ["6.8-inch Dynamic AMOLED 2X", "Exynos 2100", "Quad-camera system", "100x Space Zoom", "5000mAh battery"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "P003",
+      "product_title": "Google Pixel 6 Pro",
+      "product_image": "https://i.ibb.co.com/XZgRNrJn/pixel.jpg",
+      "category": "Smartphones",
+      "price": 999,
+      "description": "Google's latest smartphone with an advanced camera system.",
+      "specification": ["6.71-inch AMOLED display", "Google Tensor", "Triple-camera system", "Titan M2 security chip", "5003mAh battery"],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "P004",
+      "product_title": "OnePlus 9 Pro",
+      "product_image": "https://i.ibb.co.com/Z1F7NCRJ/huawei.jpg",
+      "category": "Smartphones",
+      "price": 899,
+      "description": "OnePlus' flagship with Hasselblad camera for mobile.",
+      "specification": ["6.7-inch Fluid AMOLED", "Snapdragon 888", "Quad-camera system", "65W Warp Charge", "4500mAh battery"],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "P005",
+      "product_title": "Sony WH-1000XM4",
+      "product_image": "https://i.ibb.co.com/spc0rddr/headphone-01.jpg",
+      "category": "Headphones",
+      "price": 349,
+      "description": "Industry-leading noise canceling headphones.",
+      "specification": ["30-hour battery life", "Quick Attention mode", "Touch controls", "Multi-device pairing", "High-Resolution Audio"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "P006",
+      "product_title": "Headphones 700",
+      "product_image": "https://i.ibb.co.com/LdqYCjCJ/headphone-02.jpg",
+      "category": "Headphones",
+      "price": 379,
+      "description": "Bose's best noise cancelling headphones with smart assistant support.",
+      "specification": ["20-hour battery life", "Voice assistant support", "Touch controls", "USB-C charging", "Bose AR"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "P007",
+      "product_title": "Apple MacBook Pro 16",
+      "product_image": "https://i.ibb.co.com/9m2W9jQV/mac.jpg",
+      "category": "Laptops",
+      "price": 2399,
+      "description": "Apple's most powerful laptop with M1 Max chip.",
+      "specification": ["16-inch Retina display", "M1 Max chip", "32GB RAM", "1TB SSD", "100Wh battery"],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "P008",
+      "product_title": "Dell XPS 13",
+      "product_image": "https://i.ibb.co.com/CppvdfSc/dell.jpg",
+      "category": "Laptops",
+      "price": 1199,
+      "description": "Dell's premium ultrabook with a stunning InfinityEdge display.",
+      "specification": ["13.4-inch FHD+ display", "Intel i7", "16GB RAM", "512GB SSD", "52Wh battery"],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "P009",
+      "product_title": "Asus ROG Zephyrus G14",
+      "product_image": "https://i.ibb.co.com/Q3RRnFjQ/asus.jpg",
+      "category": "Laptops",
+      "price": 1499,
+      "description": "Gaming laptop with AMD Ryzen 9 and NVIDIA GeForce RTX.",
+      "specification": ["14-inch FHD display", "AMD Ryzen 9", "32GB RAM", "1TB SSD", "76Wh battery"],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "P010",
+      "product_title": "HP Spectre x360",
+      "product_image": "https://i.ibb.co.com/LXsBksWy/hp.jpg",
+      "category": "Laptops",
+      "price": 1399,
+      "description": "Convertible laptop with 4K OLED display and advanced security features.",
+      "specification": ["13.3-inch 4K OLED display", "Intel i7", "16GB RAM", "1TB SSD", "66Wh battery"],
+      "availability": true,
+      "rating": 4.8
+    }
+  ]
+  
