@@ -1,8 +1,17 @@
-# React + Vite
+# Gadget Heaven
+## Live Link [https://helpful-kataifi-e4a42a.netlify.app/](https://helpful-kataifi-e4a42a.netlify.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+## List of React Fundamental concepts used in the project
+- UseEffect
+- UseState
+- React Route
+- React Icons
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Key Features
+
+1. **Dynamic Product List:** All product load from JSON data.  
+2. **Dynamic Sidebar:** You can see filter products using sidebar button. 
+3. **Interactive Banner:** very eye cathy banner have this website. 
+3. **View Details:** clicking View details button you see product details. 
+3. **Add to cart:** you can added product to cart to clicked add to cart button, it shows a notification, after success to added. 
