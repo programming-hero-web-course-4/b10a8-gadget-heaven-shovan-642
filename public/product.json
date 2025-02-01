@@ -107,7 +107,29 @@
       "description": "Convertible laptop with 4K OLED display and advanced security features.",
       "specification": ["13.3-inch 4K OLED display", "Intel i7", "16GB RAM", "1TB SSD", "66Wh battery"],
       "availability": true,
-      "rating": 4.8
-    }
+      "rating": 3.8
+    },
+    {
+      "product_id": "P011",
+      "product_title": "Google Pixel 6",
+      "product_image": "https://i.ibb.co.com/Y7vcfb7D/gettyimages-1309966119-612x612.jpg",
+      "category": "Smartphones",
+      "price": 799,
+      "description": "Google's new mid-range smartphone with advanced features.",
+      "specification": ["6.4-inch AMOLED display", "Google Tensor", "Dual-camera system", "Titan M2 security chip", "4600mAh battery"],
+      "availability": true,
+      "rating": 4.6
+  },
+  {
+      "product_id": "P012",
+      "product_title": "Xiaomi Mi 11 Ultra",
+      "product_image": "https://i.ibb.co.com/SDv0bq54/gettyimages-1142116673-1024x1024.webp",
+      "category": "Smartphones",
+      "price": 1099,
+      "description": "Xiaomi's flagship smartphone with top-of-the-line specs.",
+      "specification": ["6.81-inch AMOLED display", "Snapdragon 888", "Triple-camera system", "5000mAh battery", "120W fast charging"],
+      "availability": true,
+      "rating": 4.7
+  }
   ]
   

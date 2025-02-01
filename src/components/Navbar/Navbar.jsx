@@ -1,6 +1,4 @@
-import { NavLink } from "react-router";
-import Banner from "../Banner/Banner";
-import BannerImg from "../BannerImg/BannerImg";
+import { NavLink, useLocation } from "react-router";
 import { BsCart3 } from "react-icons/bs";
 import { FaRegHeart } from "react-icons/fa";
 import './Navbar.css'
@@ -8,17 +6,15 @@ import './Navbar.css'
 
 const Navbar = () => {
 
+
   const menuLinks = <>
                       <li><NavLink to={"/"}>Home</NavLink></li>
                       <li><NavLink to={"statistics"}>Statistics</NavLink></li>
                       <li><NavLink to={"/dashboard"}>Dashboard</NavLink></li>
   </>
   return (
-    <div className="m-9">
+    <div className="">
 
-      <div className="border border-gray-200 rounded-3xl p-3">
-
-        <div className='navbar-container bg-color-01 rounded-3xl text-white'>
 
           <div className="navbar">
             <div className="navbar-start">
@@ -46,18 +42,7 @@ const Navbar = () => {
           </div>
 
 
-          <Banner></Banner>
-
-
-
-
-
-        </div>
-
-      </div>
-      <div className="relative top-[-200px]">
-        <BannerImg></BannerImg>
-      </div>
+          
 
     </div>
   );
