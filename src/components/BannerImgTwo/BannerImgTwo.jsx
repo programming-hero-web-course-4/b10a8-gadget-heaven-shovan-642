@@ -2,6 +2,8 @@ import { BsCart3 } from 'react-icons/bs';
 import { FaRegHeart } from 'react-icons/fa';
 import ReactStarsRating from 'react-awesome-stars-rating';
 import { addToStoredCartList, addToStoredWishList } from '../Utility/addToDb';
+import { ToastContainer, toast } from 'react-toastify';
+import { useState } from 'react';
 
 const BannerImgTwo = ({ product, productID }) => {
 
@@ -21,8 +23,12 @@ const BannerImgTwo = ({ product, productID }) => {
       addToStoredCartList(id)
   }
 
+  const [wishAdded, setWishAdded]= useState(false)
+
   const handleAddToWish = (id)=>{
       addToStoredWishList(id)
+
+      setWishAdded(true)
   }
 
 
@@ -62,7 +68,7 @@ const BannerImgTwo = ({ product, productID }) => {
 
                 <div className='flex gap-3'> 
                 <button onClick={()=>handleAddToCart(productID)} className="btn bg-color-01 text-white border-none rounded-4xl px-7">Add to Card <span className="text-white font-bold text-xl"><BsCart3/></span></button>
-                <div onClick={()=>handleAddToWish(productID)} className="border border-gray-200 rounded-full bg-white color-03 font-bold p-3"><FaRegHeart /></div>
+                <button onClick={()=>handleAddToWish(productID)} className={`btn border border-gray-200 rounded-full bg-white color-03 font-bold p-3 ${wishAdded? 'disabled cursor-not-allowed' : ''}`}><FaRegHeart /></button>
                 </div>
 
                                 
@@ -74,7 +80,9 @@ const BannerImgTwo = ({ product, productID }) => {
 
 
       </div>
+      <ToastContainer />
     </div>
+    
   );
 };
 
