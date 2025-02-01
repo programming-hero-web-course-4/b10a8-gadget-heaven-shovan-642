@@ -11,6 +11,7 @@ import Gadget from './components/Gadget/Gadget.jsx'
 import ExploreGadget from './components/ExploreGadget/ExploreGadget.jsx'
 import { element } from 'prop-types'
 import ProductDetails from './components/ProductDetails/ProductDetails.jsx'
+import Statistics from './components/Statistics/Statistics.jsx'
 
 
 const router = createBrowserRouter([
@@ -45,6 +46,11 @@ const router = createBrowserRouter([
         path: '/dashboard',
         element: <Dashboard></Dashboard>,
         loader: ()=>fetch('./product.json'),
+      },
+      {
+        path: '/statistics',
+        element: <Statistics></Statistics>
+
       },
       {
         path: "exploreGadget",
